@@ -34,6 +34,8 @@ mkdir mongodb
 ```
 * Run docker compose file
 ```
+cd /home/ec2-user
+mkdir mysql rabbitmq redis mongodb
 docker-compose up -d
 ```
 
